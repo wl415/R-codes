@@ -10,7 +10,8 @@ without me needing to deal with those subjectivity, I have compiled a table and 
 The test is quite primitive and canot provide exact probability. However, I believe this is still an improvement from judging by feel when looking at Q-Q plot.
 The table is created by Monte-carlo simulation with 1e5 repeats on each sample size. While the values are slightly different from the previous table(2), for 
 n>10 I have used more samples than the previous table(repeats = 1e5/n), therefore should be more reliable. The method to compute the x-value 
-on the Q-Q plot is also different from the method used in (2).
+on the Q-Q plot is also different from the method used in (2). The table contains 3<=n<=200, for larger number of samples, the default is to use n=200
+as an approximation, while it is possible to generate significant values with the code provided. If you really want more accurate p-value, instead of what was provided, it is also possible to generate a simulation that you can compare your r^2 against to approximate for p-value. 
 
 Do I believe people should use this test? absolutely not, at least for testing for normality. The test is prettymuch equivalent to shapiro-francia test
 which uses the test statistic r^4, and there are packages out there that will provide the exact probability. If people wants to be more relaxed, 
