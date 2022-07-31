@@ -1,7 +1,7 @@
 # R-codes
 rsqaured test for normality
 
-When choosing testing for normality, people often use Q-Qplot instead of any objective tests, because "t-test is robust".
+When choosing test for normality, people often use Q-Qplot instead of any objective tests, because "t-test is robust".
 However, it is shown that statistic students' judgement with Q-Q plot is similar to the result of the test using r^2 of Q-Q plot(1)
 and the r^2 test have similar but slightly lower power in some non-normal distribution, and marginally higher power on other distribution
 when compared to the shapiro-wilk test, which is usually regarded as the most powerful test for normality(2). Their claim therefore does not stand
