@@ -1,5 +1,6 @@
 # R-codes
-rsqaured test for normality\n
+rsqaured test for normality
+
 When choosing testing for normality, people often uses Q-Qplot instead of any objective tests, because "t-test is robust"
 However, it is shown that statistic students' judgement with Q-Q plot is similar to the result of the test using r^2 of Q-Q plot(1)
 and the r^2 test have similar but slightly lower power in some non-normal distribution, and marginally higher power on other distribution
@@ -18,6 +19,7 @@ to extend the test to other distribution(2)
 Please read the actual paper before using any of this. 
 
 (1): Jernigan, R. W. (2012). "Developing a Test of Normality in the Classroom". 
-Section on Statistical Education – JSM 2012: 2784-2795\n
+Section on Statistical Education – JSM 2012: 2784-2795
+
 (2): Filliben, J. J. (1975). “The Probability Plot Correlation Coefficient Test for
 Normality”. Technometrics 17 (1): 111–117
