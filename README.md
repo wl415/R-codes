@@ -7,7 +7,7 @@ and the r^2 test have similar but slightly lower power in some non-normal distri
 when compared to the shapiro-wilk test, which is usually regarded as the most powerful test for normality(2). Their claim therefore does not stand
 as long as they are professional, and if they are not, judging by feel is even worse. Anyway, to make Q-Q plot lover slightly more happy, 
 without me needing to deal with those subjectivity, I have compiled a table and a test based on correlation coefficient of Q-Q plot.
-The test is quite primitive and canot provide exact probability. However, I believe this is still an improvement from judging by feel when looking at Q-Q plot.
+The test is quite primitive and cannot provide exact probability. However, I believe this is still an improvement from judging by feel when looking at Q-Q plot.
 The table is created by Monte-carlo simulation with 1e5 repeats on each sample size. While the values are slightly different from the previous table(2), for 
 n>10 I have used more samples than the previous table(repeats = 1e5/n), therefore should be more reliable. The method to compute the x-value 
 on the Q-Q plot is also different from the method used in (2). The table contains 3<=n<=200, for larger number of samples, the default is to use n=200
